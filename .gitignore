@@ -1,2 +1,6 @@
 
 *.xml
+*.pyc
+django_hero_rpg/__pycache__/settings.cpython-39.pyc
+django_hero_rpg/__pycache__/settings.cpython-39.pyc
+django_hero_rpg/__pycache__/settings.cpython-39.pyc
