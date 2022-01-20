@@ -1,5 +1,13 @@
 from django.db import models
 
+MOVING = {
+    "N": "You're going north ",
+    "E": "You're going east ",
+    "W": "You're going west ",
+    "S": "You're going south "
+}
+CURRENT_POSITION = "Your current position is "
+
 
 class Hero(models.Model):
     nickname = models.CharField(max_length=30)
