@@ -18,3 +18,9 @@ class Monster(models.Model):
     hp = models.IntegerField()
     xp_if_win = models.IntegerField()
     lvl = models.PositiveSmallIntegerField()
+
+
+class NPC(models.Model):
+    name = models.CharField(max_length=30)
+    has_quest = models.BooleanField()
+    xp_if_completed = models.IntegerField(default=0)
