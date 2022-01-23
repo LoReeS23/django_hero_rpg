@@ -15,3 +15,11 @@ class ShowMain(View):
             pass
         if "go_to_city" in request.POST:
             pass
+        if "go_north" in request.POST:
+            pass
+        if "go_south" in request.POST:
+            pass
+        if "go_east" in request.POST:
+            pass
+        if "go_west" in request.POST:
+            pass
