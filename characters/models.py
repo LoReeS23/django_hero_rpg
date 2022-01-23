@@ -6,7 +6,6 @@ MOVING = {
     "W": "You're going west ",
     "S": "You're going south "
 }
-CURRENT_POSITION = "Your current position is "
 
 
 class Hero(models.Model):
@@ -17,6 +16,8 @@ class Hero(models.Model):
     hp = models.IntegerField()
     xp = models.IntegerField()
     lvl = models.PositiveSmallIntegerField()
+    position_x = models.PositiveSmallIntegerField(default=0)
+    position_y = models.PositiveSmallIntegerField(default=0)
 
 
 class Monster(models.Model):
